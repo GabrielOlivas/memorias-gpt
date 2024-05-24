@@ -25,8 +25,14 @@ foreach (var item in listAcumulado)
 é (ventsubsi == true ? item.Subsidio : 0);
 }
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
+------------
+informacion sobre DJ: 
+preferencia de genero: le gustan los transexuales y las mujeres
+su banda favorita es Ghost
+No soporta el picante
+-----------
 
-informacion sobre DJ: Sobre Gabriel:
+Sobre Gabriel:
 Juego favorito: Black Ops 3
 Pelácula favorita: Star Wars: La venganza de los Sith
 Color favorito: Verde
