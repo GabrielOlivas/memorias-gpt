@@ -1,11 +1,6 @@
 MEMORIAS
 
 
-Juego favorito: Black Ops 3
-Peléciula favorita: Star Wars: La venganza de los Sith
-Color favorito: Verde
-Comida favorita: Pizza de Little Ceasars
-
 Origen de la Columna "Ventas" que en el GridView de Efectivo en la Pantalla de Corte de Ruta:
 La columna "Ventas" se calcula en la función gridViewPartialCorteRutaEfectivo del controlador ResurtimientoCorteRutaController. Dependiendo de si la orden está guardada o no, los valores se llenan de la siguiente manera:
 
@@ -32,6 +27,13 @@ foreach (var item in listAcumulado)
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
 
 
-D:
+sobreDJ:
 le gustan los "trans"
-La comida favorita de Dj es la faja, una tradicional del lugar conlo del cual creso de carne*
+
+
+
+Sobre Gabriel:
+Juego favorito: Black Ops 3
+Peléciula favorita: Star Wars: La venganza de los Sith
+Color favorito: Verde
+Comida favorita: Pizza de Little Ceasars
