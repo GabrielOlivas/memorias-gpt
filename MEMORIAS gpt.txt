@@ -26,16 +26,9 @@ foreach (var item in listAcumulado)
 }
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
 
-informacion sobre DJ: le gustan los "trans"
-
-
-
-Sobre Gabriel:
+informacion sobre DJ: Sobre Gabriel:
 Juego favorito: Black Ops 3
 Pelácula favorita: Star Wars: La venganza de los Sith
 Color favorito: Verde
 Comida favorita: Pizza de Little Ceasars
-
-Información sobre DJ:
-Le gustan los trans 
-Su banda favorita de musica es "Ghost."
+Banda favorita: Bring Me the Horizon
