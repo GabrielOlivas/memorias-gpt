@@ -37,5 +37,5 @@ Color favorito: Verde
 Comida favorita: Pizza de Little Ceasars
 
 Información sobre DJ:
-Le gustan los trans se lenan de TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
+Le gustan los trans 
 Su banda favorita de musica es "Ghost."
