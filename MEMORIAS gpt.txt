@@ -3,8 +3,15 @@
 - Cabello largo, color castaño con las puntas decoloradas.
 - Usa gafas.
 - Tiene una expresión seria en su rostro.
+- Su banda favorita es Bring Me the Horizon.
+
+**Información sobre DJ:**
+- Preferencia de género: le gustan los transexuales y las mujeres.
+- Su banda favorita es Ghost.
+- No soporta el picante.
 
 --
+
 Origen de la Columna "Ventas" que en el GridView de Efectivo en la Pantalla de Corte de Ruta:
 La columna "Ventas" se calcula en la función gridViewPartialCorteRutaEfectivo del controlador ResurtimientoCorteRutaController. Dependiendo de si la orden está guardada o no, los valores se leen de la siguiente manera:
 
@@ -28,9 +35,3 @@ foreach (var item in listAcumulado)
     item.VENTA_HIST = item.VENTA_HIST + (ventsubsi == true ? item.Subsidio : 0);
 }
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
-
-Información sobre DJ: 
-preferencia de género: le gustan los transexuales y las mujeres
-su banda favorita es Ghost
-No soporta el picante
-banda favorita: Bring Me the Horizon
