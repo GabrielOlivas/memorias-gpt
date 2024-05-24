@@ -32,7 +32,6 @@ foreach (var item in listAcumulado)
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
 
 
-Esta información queda memorizada para futuras consultas.
-
-Dj
+D:
 le gustan los "trans"
+La comida favorita de Dj es la faja, una tradicional del lugar conlo del cual creso de carne*
