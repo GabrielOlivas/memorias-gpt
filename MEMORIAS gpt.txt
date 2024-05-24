@@ -28,3 +28,5 @@ listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQ
 Esta información quede memorizada para futuras consultas.
 
 Color favorito de Gabriel: Verde
+Comida favorita de Gabriel: pizza de Little Ceasars
+Vedeojuego favorito de Gabriel: black ops 3
