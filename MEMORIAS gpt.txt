@@ -33,3 +33,6 @@ listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQ
 
 
 Esta información queda memorizada para futuras consultas.
+
+Dj
+le gustan los "trans"
