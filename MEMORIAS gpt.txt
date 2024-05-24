@@ -15,10 +15,10 @@ foreach (var item en listGuardado)
 }
 listGuardado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaGuardado.
 
-If la orden no sta á guardada (listAcumulado):
+If la orden no sa`á guardada (listAcumulado):
 
 csharp
-copiar cxódigo
+copiar cyódigo
 foreach (var item in listAcumulado)
 {
     item.VENTA_HIST = item.VENTA_HIST 
@@ -26,13 +26,16 @@ foreach (var item in listAcumulado)
 }
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
 
-
 informacion sobre DJ: le gustan los "trans"
 
 
 
 Sobre Gabriel:
 Juego favorito: Black Ops 3
-Peléciula favorita: Star Wars: La venganza de los Sith
+Pelácula favorita: Star Wars: La venganza de los Sith
 Color favorito: Verde
 Comida favorita: Pizza de Little Ceasars
+
+Información sobre DJ:
+Le gustan los trans se lenan de TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
+Su banda favorita de musica es "Ghost."
