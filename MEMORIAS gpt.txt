@@ -1,46 +1,36 @@
-MEMORIAS
 
+**Descripción de Gabriel:**
+- Cabello largo, color castaño con las puntas decoloradas.
+- Usa gafas.
+- Tiene una expresión seria en su rostro.
 
+--
 Origen de la Columna "Ventas" que en el GridView de Efectivo en la Pantalla de Corte de Ruta:
-La columna "Ventas" se calcula en la función gridViewPartialCorteRutaEfectivo del controlador ResurtimientoCorteRutaController. Dependiendo de si la orden está guardada o no, los valores se llenan de la siguiente manera:
+La columna "Ventas" se calcula en la función gridViewPartialCorteRutaEfectivo del controlador ResurtimientoCorteRutaController. Dependiendo de si la orden está guardada o no, los valores se leen de la siguiente manera:
 
 Cálculo de "Ventas":
 If la orden está guardada (listGuardado):
-
+```
 csharp
 copiar código
 foreach (var item en listGuardado)
 {
-    item.Ventas = item.MONTO- item.Importe _Hist_Ant + (ventsubsi == true ? item.Subsidio : 0;
+    item.Ventas = item.MONTO - item.Importe_Hist_An + (ventsubsi == true ? item.Subsidio : 0);
 }
 listGuardado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaGuardado.
 
-If la orden no sa`á guardada (listAcumulado):
-
+If la orden no está guardada (listAcumulado):
+```
 csharp
-copiar cyódigo
+copiar código
 foreach (var item in listAcumulado)
 {
-    item.VENTA_HIST = item.VENTA_HIST 
-é (ventsubsi == true ? item.Subsidio : 0);
+    item.VENTA_HIST = item.VENTA_HIST + (ventsubsi == true ? item.Subsidio : 0);
 }
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
-------------
-informacion sobre DJ: 
-preferencia de genero: le gustan los transexuales y las mujeres
+
+Información sobre DJ: 
+preferencia de género: le gustan los transexuales y las mujeres
 su banda favorita es Ghost
 No soporta el picante
------------
-
-Sobre Gabriel:
-Juego favorito: Black Ops 3
-Pelácula favorita: Star Wars: La venganza de los Sith
-Color favorito: Verde
-Comida favorita: Pizza de Little Ceasars
-Banda favorita: Bring Me the Horizon
-
-
-DJ:
-Prefiere los transexuales y las mujeres.
--No soporta el picante.
-Banda favorita: Gost.
+banda favorita: Bring Me the Horizon
