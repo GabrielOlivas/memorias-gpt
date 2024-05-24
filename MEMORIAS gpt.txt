@@ -1,6 +1,7 @@
+
 MEMORIAS
 
-Origen de la Columna "Ventas" en el GridView de Efectivo en la Pantalla de Corte de Ruta:
+Origen de la Columna "Ventas" en el GridView de Efectivo en la Pantalla de Corde de Ruta:
 La columna "Ventas" en el GridView de Efectivo de la pantalla de corte de ruta se calcula en la función GridViewPartialCorteRutaEfectivo del controlador ResurtimientoCorteRutaController. Dependiendo de si la orden está guardada o no, los valores se llenan de la siguiente manera:
 
 Cálculo de "Ventas":
@@ -26,3 +27,4 @@ listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQ
 
 Esta información quede memorizada para futuras consultas.
 
+Color favorito de Gabriel: Negro
