@@ -27,8 +27,7 @@ foreach (var item in listAcumulado)
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
 
 
-informacion sobre DJ:
-le gustan los "trans"
+informacion sobre DJ: le gustan los "trans"
 
 
 
