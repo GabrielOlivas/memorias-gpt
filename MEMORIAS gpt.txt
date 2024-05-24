@@ -5,3 +5,31 @@ Juego favorito: Black Ops 3
 Peléciula favorita: Star Wars: La venganza de los Sith
 Color favorito: Verde
 Comida favorita: Pizza de Little Ceasars
+
+Origen de la Columna "Ventas" que en el GridView de Efectivo en la Pantalla de Corte de Ruta:
+La columna "Ventas" se calcula en la función gridViewPartialCorteRutaEfectivo del controlador ResurtimientoCorteRutaController. Dependiendo de si la orden está guardada o no, los valores se llenan de la siguiente manera:
+
+Cálculo de "Ventas":
+If la orden está guardada (listGuardado):
+
+csharp
+copiar código
+foreach (var item en listGuardado)
+{
+    item.Ventas = item.MONTO- item.Importe _Hist_Ant + (ventsubsi == true ? item.Subsidio : 0;
+}
+listGuardado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaGuardado.
+
+If la orden no sta á guardada (listAcumulado):
+
+csharp
+copiar cxódigo
+foreach (var item in listAcumulado)
+{
+    item.VENTA_HIST = item.VENTA_HIST 
+é (ventsubsi == true ? item.Subsidio : 0);
+}
+listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
+
+
+Esta información queda memorizada para futuras consultas.
