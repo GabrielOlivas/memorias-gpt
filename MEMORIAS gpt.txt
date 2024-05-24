@@ -26,7 +26,3 @@ listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQ
 
 Esta información quede memorizada para futuras consultas.
 
-
-
-
-hola
