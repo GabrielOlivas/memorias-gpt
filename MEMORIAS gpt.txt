@@ -4,7 +4,7 @@
 - Usa gafas.
 - Tiene una expresión seria en su rostro.
 - Su banda favorita es Bring Me the Horizon.
-
+Le gusta la pizza.
 **Información sobre DJ:**
 - Preferencia de género: le gustan los transexuales y las mujeres.
 - Su banda favorita es Ghost.
@@ -32,6 +32,6 @@ csharp
 copiar código
 foreach (var item in listAcumulado)
 {
-    item.VENTA_HIST = item.VENTA_HIST + (ventsubsi == true ? item.Subsidio : 0);
+    item.VENTA_HIST= item.VENTA_HIST, (ventsubsi == true ? item.Subsidio : 0);
 }
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
