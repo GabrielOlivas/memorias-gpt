@@ -35,3 +35,16 @@ foreach (var item in listAcumulado)
     item.VENTA_HIST= item.VENTA_HIST, (ventsubsi == true ? item.Subsidio : 0);
 }
 listAcumulado se llena desde TempData utilizando el procedimiento almacenado spQueryCorteInstanciaAcumulado.
+
+** Error ***
+ * No se ha ejecutado con \u201cxito - Error al ejecutar el sp.
+  * Pantalla : Cambio de Planogramas Masivo
+ * Procedimientos almacenados:
+   * sp_Cantidad$modulos\$Planograma
+   * sp_insertar$ArticuloPlanogramasMasivo
+
+  * Conexion a la base de datos: Verificar la conexion.
+ * Paramíretros del sp: Asegurarse de que los parrímetros pasados sean correctos.
+ * Definición de los sPs: Revisar la lógica y la manipulación de datos en los procedimientos almacenados.
+  * Fases para resolver:
+   1. Verificar falK12-362-framesingbase64 contento
